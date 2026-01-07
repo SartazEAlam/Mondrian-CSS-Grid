@@ -1,0 +1,65 @@
+body {
+  background-image: linear-gradient(rgb(49, 97, 59), rgb(133, 147, 150));
+  background-color: rgb(193, 208, 159);
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.grid-container {
+  background-color: black;
+  width: 748px;
+  height: 748px;
+  display: grid;
+  grid-template-columns: 320px 198px 153px 50px;
+  grid-template-rows: 414px 130px 155px 22px;
+  gap: 9px;
+  color: rgb(159, 10, 159);
+}
+h1{
+  font-size: 42px;
+  color: black;
+  margin: 2% 0% 2% 0%;
+  padding: 0px;
+  text-align: center;
+  font-family: "BBH Bartle", sans-serif;
+  font-weight: 00;
+  font-style: normal;
+  background-clip: text;
+  background: -webkit-linear-gradient(#f10505, #ebd805);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+.red {
+  background-color: #e72f24;
+  width: 320px;
+  height: 414px;
+}
+.white {
+  background-color: #f0f1ec;
+}
+.big-white {
+  grid-column: span 3;
+}
+.small-mid-white {
+  grid-row: span 2;
+}
+.mid-large-white {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.blue {
+  background-color: #004592;
+  border-bottom: 10px solid black;
+}
+.small-white {
+  grid-row: span 2;
+}
+.yellow {
+  background-color: #f9d01e;
+}
+.black {
+  background-color: #232629;
+}
